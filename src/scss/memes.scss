@@ -1,0 +1,41 @@
+body{
+   font-size: 2vw;
+}
+
+
+.main {
+   margin-top: 25px;
+   // .main__section
+
+   &__section {
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-items: center;
+      grid-area: "mem1 mem1 mem2 mem3"
+                  "mem1 mem1 mem4 mem5";
+      gap: 50px;
+   
+   }
+
+   
+}
+
+.section {
+
+   // .section__article
+
+   &__article {
+      font-size: 1em;
+      text-align: center;
+      
+      .article__img {
+         border-radius: 50%;
+
+         box-shadow: 0 0 30px 0 #ffffff;
+      }
+   }
+}
+
+
+
